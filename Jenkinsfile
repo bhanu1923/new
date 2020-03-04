@@ -9,7 +9,7 @@ def app
           sh "${mvnCMD} clean package" 
     }
     stage('Build Docker Image'){
-    app = docker.build("6473233877/new1")
+    app = docker.build("6473233877/new")
     }
      stage('Test Image'){
             echo "Test Passed"
