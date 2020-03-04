@@ -1,3 +1,5 @@
 FROM tomcat:8
 
-COPY */.jar /usr/local/
+COPY new/target/*.jar /usr/local/tomcat
+
+CMD ["java","-jar","/new/target/webapp-1.0-SNAPSHOT.jar"]
