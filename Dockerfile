@@ -1,4 +1,4 @@
 FROM tomcat:8
 
-COPY ./webapp.war /usr/local/tomcat/webapps/
+COPY ./webapp.jar /usr/local/tomcat/webapps/
 
