@@ -1,4 +1,4 @@
 FROM tomcat:8
 
-COPY new/target/*.jar /usr/local/tomcat/webapps/
+COPY /var/lib/jenkins/workspace/Test/target/*.jar /usr/local/tomcat/
 
